@@ -177,6 +177,10 @@ PRODUCT_PACKAGES += \
     charger_res_images \
     charger
 
+# Vendor security patch level
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.lineage.build.vendor_security_patch=2019-06-05
+
 # Shims
 PRODUCT_PACKAGES += \
     libmtkshim_gui \
