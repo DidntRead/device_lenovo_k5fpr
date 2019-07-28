@@ -21,6 +21,7 @@ include $(BUILD_SHARED_LIBRARY)
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES := CameraParameters.cpp cam.cpp
 LOCAL_MODULE := libmtkshim_camera
+LOCAL_SHARED_LIBRARIES := libdpframework
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_PROPRIETARY_MODULE := true
